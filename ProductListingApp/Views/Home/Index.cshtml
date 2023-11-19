@@ -1,0 +1,25 @@
+﻿@model List<Toy>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="container">
+        <div class="row align-items-center">
+            @foreach(Toy t in Model)
+            {
+                <div class="col">
+
+                    <a type="button" class="btn btn-outline-dark" href="@Url.Action("Index", "DetailedProduct", t)">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+            
+                            <h1>@t.Title</h1>
+                            <h2>@t.Price</h2>
+                            <h3>@t.Description</h3>
+                        </div>
+                    </a>
+                 </div>
+
+            }
+        </div>
+    </div>
+</div>

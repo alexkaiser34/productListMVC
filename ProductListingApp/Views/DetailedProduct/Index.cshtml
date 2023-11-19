@@ -1,0 +1,47 @@
+﻿@model Toy
+
+@{
+
+    ViewData["Title"] = "Detailed Product Page";
+}
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+
+<div class="container pt-5">
+        <a type="button" class="btn btn-close" href="@Url.Action("Index", "Home")"></a>
+
+    <div class="d-flex flex-column align-items-center justify-content-center">
+        <h1>@Model.Title</h1>
+        <h2>@Model.Price</h2>
+        <h3>@Model.Description</h3>
+    </div>
+    <div class="d-flex flex-row align-items-center justify-content-evenly pt-5">
+        <div>
+            <h1>Features</h1>
+            <ul>
+                @foreach(string feature in Model.Features)
+                {
+                    <li>
+                        @feature
+                    </li>
+                }
+            </ul>
+        </div>
+        <div>
+            <h1>Reviews</h1>
+            <ul>
+                @foreach (string review in Model.Reviews)
+                {
+                    <li>
+                        @review
+                    </li>
+                }
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+</body>
