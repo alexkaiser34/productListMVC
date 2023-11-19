@@ -28,3 +28,4 @@ C:\Users\kaise\git\ProductListingApp\ProductListingApp\obj\Debug\net8.0\refint\P
 C:\Users\kaise\git\ProductListingApp\ProductListingApp\obj\Debug\net8.0\ProductListingApp.pdb
 C:\Users\kaise\git\ProductListingApp\ProductListingApp\obj\Debug\net8.0\ProductListingApp.genruntimeconfig.cache
 C:\Users\kaise\git\ProductListingApp\ProductListingApp\obj\Debug\net8.0\ref\ProductListingApp.dll
+C:\Users\kaise\git\ProductListingApp\ProductListingApp\obj\Debug\net8.0\ProductListingApp.sourcelink.json

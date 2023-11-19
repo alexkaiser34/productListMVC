@@ -18,16 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\kaise\git\ProductListingApp\ProductListingApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kaise/git/ProductListingApp/ProductListingApp/Views/DetailedProduct/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsZWRQcm9kdWN0XEluZGV4LmNzaHRtbA==
+[C:/Users/kaise/git/ProductListingApp/ProductListingApp/Views/Home/DetailedProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxlZFByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kaise/git/ProductListingApp/ProductListingApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/kaise/git/ProductListingApp/ProductListingApp/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kaise/git/ProductListingApp/ProductListingApp/Views/Shared/Error.cshtml]

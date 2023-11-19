@@ -20,5 +20,10 @@ namespace ProductListingApp.Controllers
             return View(_db.datatbaseObjects.Values.ToList());
         }
 
+        public IActionResult DetailedProduct(Toy t)
+        {
+            return View(t);
+        }
+
     }
 }

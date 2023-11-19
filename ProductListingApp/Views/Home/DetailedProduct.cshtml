@@ -4,13 +4,8 @@
 
     ViewData["Title"] = "Detailed Product Page";
 }
-<head>
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-</head>
-<body>
-
 <div class="container pt-5">
-        <a type="button" class="btn btn-close" href="@Url.Action("Index", "Home")"></a>
+    <a type="button" class="btn btn-close" href="@Url.Action("Index", "Home")"></a>
 
     <div class="d-flex flex-column align-items-center justify-content-center">
         <h1>@Model.Title</h1>
@@ -21,7 +16,7 @@
         <div>
             <h1>Features</h1>
             <ul>
-                @foreach(string feature in Model.Features)
+                @foreach (string feature in Model.Features)
                 {
                     <li>
                         @feature
@@ -44,4 +39,3 @@
     </div>
 </div>
 
-</body>
