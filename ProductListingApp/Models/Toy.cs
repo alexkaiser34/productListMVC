@@ -1,5 +1,6 @@
 ﻿namespace ProductListingApp.Models
 {
+    // defines a toy model
     public class Toy
     {
         public string Title { get; set; }

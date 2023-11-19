@@ -4,7 +4,10 @@ namespace ProductListingApp.Data
 {
     public class Database
     {
+        // dictionary to hold objects
         public IDictionary<string, Toy> datatbaseObjects;
+
+        // constructor: add hardcoded database objects
         public Database() {
 
             datatbaseObjects = new Dictionary<string, Toy>();
